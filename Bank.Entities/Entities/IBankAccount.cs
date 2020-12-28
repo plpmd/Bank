@@ -7,5 +7,8 @@ namespace Bank.Entities.Entities
     public interface IBankAccount
     {
         double AddInterest(double interest);
-    }
+
+		double Credit(double amount);
+		double Debit(double v);
+	}
 }
